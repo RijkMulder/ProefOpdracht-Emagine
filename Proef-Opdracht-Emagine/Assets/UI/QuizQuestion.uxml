@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; width: 100%; height: 20%;">
+        <ui:Label tabindex="-1" text="Question" parse-escape-sequences="true" display-tooltip-when-elided="true" name="question" />
+        <ui:RadioButtonGroup label="choose answer" value="-1" choices="UnityEngine.UIElements.RadioButtonGroup+&lt;get_choices&gt;d__7" name="RadioButtonGroup">
+            <ui:RadioButton name="option0" label="A" />
+            <ui:RadioButton name="option1" label="B" />
+            <ui:RadioButton name="option2" label="C" />
+            <ui:RadioButton name="option3" label="D" />
+        </ui:RadioButtonGroup>
+    </ui:VisualElement>
+</ui:UXML>

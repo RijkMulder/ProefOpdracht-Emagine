@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="bg" style="flex-grow: 1; width: 100%; height: 100%; background-color: rgb(151, 151, 151);" />
+    <ui:Button text="Submit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="submit" style="width: 6%; height: -2%;" />
+</ui:UXML>
